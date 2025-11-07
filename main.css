@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Layout*/
+
+h1{
+        color: #fff;
+        font-size: 7.3rem;
+}
+
+.image{
+        width: 55vw;
+}
+
+.unit-rank{
+    display: grid;
+    grid-template-columns: 0.3fr auto;
+    background-color: #2F2F2F;
+}
+
+/*Rank*/
+
+.rank-title{
+    display:inherit;
+    justify-content: center;
+    background-color: #7F012F;
+}
+
+
+
+/*Customization*/
+
+#default-image{
+
+    margin: 1rem 0rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
