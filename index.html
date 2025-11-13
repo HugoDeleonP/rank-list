@@ -1,115 +1,119 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rank List</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
     <main>
+      <div id="rank-list">
+        <div class="unit-rank" id="unit-1">
+          <div class="rank-title">
+            <h1>S</h1>
+          </div>
 
-        <div id="rank-list">
-
-            <div class="unit-rank">
-                
-                <div class="rank-title">
-                    <h1>S</h1>
-                </div>
-
-                <div class="content-title dropzone">
-                    
-                </div>
-
-            </div>
-            
-            <div class="unit-rank">
-
-                <div class="rank-title">
-                    <h1>A</h1>
-                </div>
-
-                <div class="content-title dropzone">
-                    
-                </div>
-
-            </div>
-
-            <div class="unit-rank">
-
-                <div class="rank-title">
-                    <h1>B</h1>
-                </div>
-                
-                <div class="content-title dropzone">
-                    
-                </div>
-
-            </div>
-
-            <div class="unit-rank">
-
-                <div class="rank-title">
-                    <h1>C</h1>
-                </div>
-                
-                <div class="content-title dropzone">
-                    
-                </div>
-
-            </div>
-
-            <div class="unit-rank">
-
-                <div class="rank-title">
-                    <h1>D</h1>
-                </div>
-                
-                <div class="content-title dropzone">
-                    
-                </div>
-
-            </div>
-        
+          <div class="content-title dropzone"></div>
         </div>
 
-        <div id="customization">
+        <div class="unit-rank" id="unit-2">
+          <div class="rank-title">
+            <h1>A</h1>
+          </div>
 
-            <div id="default-image">
-                <img id="school" class="image draggable" src="assets/SchoolOfAthens.jpg" draggable="true" alt="">
-                <img id="thomas" class="image draggable" src="assets/SaintThomas.jpg" draggable="true" alt="">
-                <img id="augustin" class="image draggable" src="assets/SaintAugustin.jpg" draggable="true" alt="">
-                <img id="christ" class="image draggable" src="assets/Christ.jpg" draggable="true" alt="">
-                <img id="image5" class="image draggable" src="" draggable="true" alt="">
-
-            </div>
-            <script src="dragDrop.js"></script>
-
-            <div id="customization-image">
-
-                <form action="" method="post">
-                    
-                    <div id="image-choose">
-
-                        <label for="image-add">
-                            Escolha uma imagem para adicionar:
-                        </label>
-
-                        <input type="file" name="image-add" id="image-add" accept="assets/png, assets/jpeg">
-
-                    </div>
-
-                    <div id="image-submit">
-                        <button>Submit</button>
-                    </div>
-                </form>
-
-            </div>
-            <script src=""></script>
-
-            <div id="customization-rankTitle"></div>
-            <script></script>
+          <div class="content-title dropzone"></div>
         </div>
+
+        <div class="unit-rank" id="unit-3">
+          <div class="rank-title">
+            <h1>B</h1>
+          </div>
+
+          <div class="content-title dropzone"></div>
+        </div>
+
+        <div class="unit-rank" id="unit-4">
+          <div class="rank-title">
+            <h1>C</h1>
+          </div>
+
+          <div class="content-title dropzone"></div>
+        </div>
+
+        <div class="unit-rank" id="unit-5">
+          <div class="rank-title">
+            <h1>D</h1>
+          </div>
+
+          <div class="content-title dropzone"></div>
+        </div>
+      </div>
+
+      <div id="customization">
+        <h1>GALERIA</h1>
+        <div class="dropzone" id="default-image">
+          <img
+            id="school"
+            class="image draggable"
+            src="assets/SchoolOfAthens.jpg"
+            draggable="true"
+            alt=""
+          />
+          <img
+            id="thomas"
+            class="image draggable"
+            src="assets/SaintThomas.jpg"
+            draggable="true"
+            alt=""
+          />
+          <img
+            id="augustin"
+            class="image draggable"
+            src="assets/SaintAugustin.jpg"
+            draggable="true"
+            alt=""
+          />
+          <img
+            id="christ"
+            class="image draggable"
+            src="assets/Christ.jpg"
+            draggable="true"
+            alt=""
+          />
+        </div>
+        <script src="dragDrop.js"></script>
+
+      <!--        
+         <div id="customization-image">
+          <form action="" method="post">
+            <div id="image-choose">
+              <label for="image-add">
+                Escolha uma imagem para adicionar:
+              </label>
+
+              <input
+                type="file"
+                name="image-add"
+                id="image-add"
+                accept="assets/png, assets/jpeg"
+              />
+            </div>
+
+            <div id="image-submit">
+              <button>Submit</button>
+            </div>
+          </form>
+        </div>
+        <script src=""></script>
+        <div id="customization-rankTitle"></div>
+        <script></script>
+        -->
+
+
+
+       
+      </div>
     </main>
-</body>
+  </body>
 </html>
